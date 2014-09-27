@@ -1,3 +1,13 @@
+1.3 - Saturday 27 September 2014
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Adjusted source headers of Base to Apache license.
+- Updated: Moving copyright information to NOTICE files.
+- Use assertInstanceOf() instead of assertType(). (tests)
+- Remove custom test runner.
+- Added composer.json and test dependencies.
+
+
 1.2.1 - Monday 07 December 2009
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
