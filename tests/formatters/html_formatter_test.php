@@ -25,8 +25,6 @@
  * @subpackage Tests
  */
 
-require_once 'Debug/tests/test_classes.php';
-
 /**
  * @package Debug
  * @subpackage Tests

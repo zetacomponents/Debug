@@ -25,8 +25,6 @@
  * @subpackage Tests
  */
 
-require_once 'test_classes.php';
-
 function testDebugMessageErrorHandler( $errno, $errstr, $errfile, $errline )
 {
     ezcDebug::debugHandler( $errno, $errstr, $errfile, $errline );

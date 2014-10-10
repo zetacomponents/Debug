@@ -25,8 +25,6 @@
  * @subpackage Tests
  */
 
-require_once 'debug_test_dump_object.php';
-
 class DebugTestDumpExtendedObject extends DebugTestDumpObject
 {
     private $extendedPrivate;

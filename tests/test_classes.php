@@ -29,10 +29,6 @@
  * Include classes used in tests.
  */
 
-require_once 'formatters/html_formatter_data_structures.php';
-require_once 'formatters/test_reporter.php';
-require_once 'wrappers/fake_wrapper.php';
-
 /**
  * File included in all tests.
  *
