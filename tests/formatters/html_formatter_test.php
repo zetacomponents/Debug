@@ -69,7 +69,7 @@ class ezcDebugHtmlFormatterTest extends ezcTestCase
             $struct->getLogStructureWithXdebugStacktrace(),
             $struct->getTimeStructure()
         );
-        file_put_contents( dirname( __FILE__ ) . '/output/output_with_xdebug_stacktrace.html', $out );
+        // file_put_contents( dirname( __FILE__ ) . '/output/output_with_xdebug_stacktrace.html', $out );
         $expected = file_get_contents(
             dirname( __FILE__ ) . '/output/output_with_xdebug_stacktrace.html'
         );
