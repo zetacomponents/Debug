@@ -186,7 +186,7 @@ class ezcDebugTest extends ezcTestCase
 
         $struct = $dbg->generateOutput();
         $this->assertEquals(1, count( $struct[0] ) );
-        $this->assertEquals("default",  $struct[0][0]->category );
+        $this->assertEquals("DefaultCategory",  $struct[0][0]->category );
 
         // Changing the default source from the log.
         $dbg->getEventLog()->source = "bla"; 
@@ -206,7 +206,7 @@ class ezcDebugTest extends ezcTestCase
 
         $struct = $dbg->generateOutput();
         $this->assertEquals(1, count( $struct[0] ) );
-        $this->assertEquals("default",  $struct[0][0]->category );
+        $this->assertEquals("DefaultCategory",  $struct[0][0]->category );
 
         $dbg->log("bla", 1);
         $struct = $dbg->generateOutput();
@@ -266,7 +266,7 @@ class ezcDebugTest extends ezcTestCase
         $fakeStruct[0][0]->datetime  = null;
         $fakeStruct[0][0]->verbosity = false;
         $fakeStruct[0][0]->file      = __FILE__;
-        $fakeStruct[0][0]->line      = 221;
+        $fakeStruct[0][0]->line      = 236;
 
         $this->assertEquals(
             $fakeStruct,

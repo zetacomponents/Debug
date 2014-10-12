@@ -3,7 +3,7 @@
 return array (
   0 => 
   array (
-    'line' => 23,
+    'line' => 38,
     'function' => 'getDeeperStackTrace',
     'class' => 'ezcDebugPhpStacktraceIteratorTest',
     'params' => 
@@ -14,7 +14,7 @@ return array (
   ),
   1 => 
   array (
-    'line' => 38,
+    'line' => 53,
     'function' => 'getStackTrace',
     'class' => 'ezcDebugPhpStacktraceIteratorTest',
     'params' => 
