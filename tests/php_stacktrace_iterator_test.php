@@ -25,8 +25,6 @@
  * @subpackage Tests
  */
 
-require_once 'classes/debug_test_dump_extended_object.php';
-
 /**
  * Test suite for the ezcDebugOptions class.
  *

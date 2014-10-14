@@ -91,6 +91,7 @@ class ezcDebugHtmlFormatter implements ezcDebugOutputFormatter
      */
     public function getLog( array $writerData )
     {
+        date_default_timezone_set('UTC');
         $str = "<table class='log'>\n";
         foreach ( $writerData as $w )
         {
