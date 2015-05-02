@@ -144,7 +144,7 @@ class ezcDebug
 
         $original = ezcLog::getInstance();
 
-        $this->log = clone( $original ); 
+        $this->log = clone $original; 
         $this->log->reset();
         $this->log->setMapper( new ezcLogFilterSet() );
 
